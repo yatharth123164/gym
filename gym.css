@@ -319,12 +319,15 @@
         flex-direction:row;
         text-align:center;
         font-size:15px;
+        display:flex;
+        justify-content:space-around;
+        flex-wrap:wrap;
     }
 }
 img{
     max-width:100%;
     heigth:auto;
 }
-body{
+.body{
     font-family:popins,sans-serif;
 }
