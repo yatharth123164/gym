@@ -1,0 +1,293 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 22px;
+    gap : 25px;
+    text-align: right;
+    position:sticky;
+    top: 0;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.navbar :hover{
+    color: red;
+    background-color: black;
+    border-radius: 5px;
+    border : 5px;
+}
+.banner{
+    background-image: url("Screenshot\ 2026-03-21\ at\ 8.38.38\ AM.png");
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6) , url("Screenshot\ 2026-03-21\ at\ 8.38.38\ AM.png"));
+    width: 100%;
+    height : 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner h1{
+    font-size: 55px;
+    margin-bottom: 20px;
+    padding: 20px 25px;
+    border: 5px solid black;
+    border-radius: 20px;
+    transform: rotate(0deg);
+}
+.banner h3{
+    font-size: 40px;
+    padding: 10px 15px;
+    margin: 20px 14px;
+    text-decoration: underline;
+}
+.banner button{
+    padding: 15px 30px;
+    font-size: 28px;
+    background-color: blue;
+    color: white;
+    border: 5px solid black;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.banner button:hover{
+    background-color: black;
+    color: red;
+    border: 5px solid red;
+}
+.banner button pulse{
+    animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+    0% { transform: scale(1); box-shadow: 0 0 0 red;}
+    50% { transform: scale(1.1); box-shadow: 0 0 15px red;}
+    100% { transform: scale(1); box-shadow: 0 0 0 red;}
+}
+.navbar li {
+    margin : 0 15px;
+}
+.join-btn{
+    animation: pulse 2s infinite;
+    background-color: black;
+    color:white;
+    padding : 10px 20px;
+    border-radius: 8px;
+    font-size: 25px;
+    text-align: center;
+    font-size: 23px;
+}
+@keyframes pulse {
+    0% { transform: scale(1); box-shadow: 0 0 0 red;}
+    50% { transform: scale(1.1); box-shadow: 0 0 15px red;}
+    100% { transform: scale(1); box-shadow: 0 0 0 red;}
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 20px;
+    gap: 30px;
+    background-image: url("sl_122221_47450_06.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.about h1{
+    font-size: 40px;
+    padding: 15px 20px;
+    text-align: center;
+}
+.about p{
+    font-size: 22px;
+    text-align: center;
+}
+.text{
+    display : "flex";
+    align-items: center;
+    gap:"20px";
+}
+.text img{
+    width : 400px;
+}
+.text p{
+    font-size: 22px;
+    max-width: 500px;
+}
+.text2{
+    display : "flex";
+    align-items: center;
+    gap:"20px";
+}
+.text2 img{
+    width : 400px;
+}
+.text2 p{
+    font-size: 22px;
+    max-width: 500px;
+}
+.services h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 15px 20px;
+    margin: 10px 10px;
+}
+.service1 h2{
+    display: flex;
+    text-align: left;
+    font-size: 30px;
+    background:#fff;
+    border-radius: 10px;
+}
+.service2 h2{
+    display: flex;
+    text-align: left;
+    font-size: 30px;
+    background:#fff;
+    border-radius: 10px;
+}
+.service3 h2{
+    display: flex;
+    text-align: left;
+    font-size: 30px;
+    background:#fff;
+    border-radius: 10px;
+}
+.service4 h2{
+    display: flex;
+    text-align: left;
+    font-size: 30px;
+    background:#fff;
+    border-radius: 10px;
+}
+.service1 p{
+    font-size: 22px;
+    text-align: left;
+    color :#363232;
+    background:#fff;
+    border-radius: 10px;
+}
+.service2 p{
+    font-size: 22px;
+    text-align: left;
+    color :#363232;
+    background:#fff;
+    border-radius: 10px;
+}
+.service3 p{
+    font-size: 22px;
+    text-align: left;
+    color :#363232;
+    background:#fff;
+    border-radius: 10px;
+}
+.service4 p{
+    font-size: 22px;
+    text-align: left;
+    color :#363232;
+    background:#fff;
+    border-radius: 10px;
+}
+.trainer h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 15px 20px;
+    margin: 10px 10px;
+}
+.trainer1{
+    transition: 0.3s;
+    background: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    width: 250px;
+}
+.trainer1 img{
+    border-radius: 10px;
+    width: 100%;
+
+}
+.trainer1 h3{
+    font-size: 28px;
+    margin: 10px 0 5px;
+}
+.trainer1 p{
+    font-size: 14px;
+    color: grey;
+}
+.trainer1 button{
+    padding: 10px 15px;
+    font-size: 18px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.trainer1 :hover{
+    transform: translateY(-10px);
+}
+.trainer2{
+    transition: 0.3s;
+    background: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    width: 250px;
+}
+.trainer2 img{
+    border-radius: 10px;
+    width: 100%;
+
+}
+.trainer2 h3{
+    font-size: 28px;
+    margin: 10px 0 5px;
+}
+.trainer2 p{
+    font-size: 14px;
+    color: grey;
+}
+.trainer2 button{
+    padding: 10px 15px;
+    font-size: 18px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.trainer2 :hover{
+    transform: translateY(-10px);
+}
+.services{
+    background-color: 
+    rgb(211, 238, 238);
+}
+.contact{
+    background-color: rgb(211, 238, 238);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 20px;
+    gap: 30px;
+}
+.contact h1{
+    font-size: 40px;
+    padding: 15px 20px;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.train{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
