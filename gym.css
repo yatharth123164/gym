@@ -302,6 +302,8 @@
         display:flex;
         flex-direction:column;
         align-item:center;
+        justify-content:center;
+        gap:20px;
     }
 }
 @media (max-width:768px){
@@ -314,11 +316,15 @@
 }
 @media (max-width:768px){
     .navbar{
-        flex-direction:column;
+        flex-direction:row;
         text-align:center;
+        font-size:15px;
     }
 }
 img{
     max-width:100%;
     heigth:auto;
+}
+body{
+    font-family:popins,sans-serif;
 }
